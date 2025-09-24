@@ -30,6 +30,6 @@ public class AppTest {
         int a = 5;
         int b = 10;
         int mul = a * b;
-        assertEquals(mul, 50, "Sum should be 50");
+        assertEquals(mul, 50, "MUL should be 50");
     }
 }
