@@ -16,4 +16,20 @@ public class AppTest {
         int sum = a + b;
         assertEquals(sum, 15, "Sum should be 15");
     }
+      @Test
+    @Description("Simple test to check sub")
+    public void testSub() {
+        int a = 20;
+        int b = 5;
+        int diff = a - b;
+        assertEquals(diff, 15, "diff should be 15");
+    }
+      @Test
+    @Description("Simple test to check mul")
+    public void testMul() {
+        int a = 5;
+        int b = 10;
+        int mul = a * b;
+        assertEquals(mul, 50, "Sum should be 50");
+    }
 }
